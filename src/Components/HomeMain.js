@@ -3,7 +3,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import image from "../assets/pic4.jpg";
+import "./Homeimg.css";
 
 const HomeMain = () => {
   return (
@@ -70,10 +70,8 @@ const HomeMain = () => {
             </a>
           </div>
         </div>
-        <div className="avatar w-5/4 mx-auto">
-          <div>
-            <img className="rounded-3xl" src={image} alt="" />
-          </div>
+        <div className="avatar w-4/5 mx-auto">
+          <div className="key_image rounded-3xl border-2"></div>
         </div>
       </div>
     </div>
