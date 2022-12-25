@@ -7,7 +7,7 @@ import "./Homeimg.css";
 
 const HomeMain = () => {
   return (
-    <div id="home" className="w-full h-screen text-center">
+    <div className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 grid lg:grid-cols-2 sm:grid-cols-1  justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600">

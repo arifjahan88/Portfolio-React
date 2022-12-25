@@ -1,151 +1,236 @@
 import React from "react";
-import servicing from "../assets/projects/car servicing.png";
+import { PhotoProvider, PhotoView } from "react-photo-view";
+import { MdSmartDisplay } from "react-icons/md";
+import { AiFillGithub } from "react-icons/ai";
 import doctors from "../assets/projects/Doctors portal.png";
-import photography from "../assets/projects/photography.png";
+import photoreview from "../assets/projects/photography.png";
+import carsservice from "../assets/projects/car servicing.png";
 
 const Projects = () => {
   return (
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <p className="text-xl tracking-widest uppercase text-[#5651e5]">
-          Projects
-        </p>
-        <h2 className="py-4">What I&apos;ve Built</h2>
-        <div className="grid md:grid-cols-2 gap-8">
-          <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#8581fb] to-[#4e84f9]">
-            <img
-              className="rounded-xl group-hover:opacity-10"
-              src={doctors}
-              alt="/"
-            />
-            <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-              <h3 className="text-2xl text-white tracking-wider text-center">
-                "Car Servicing"
-              </h3>
-              <p className="pb-4 pt-2 text-white text-center">
-                "React JS | Express JS | Mongo DB"
+        <div data-aos="fade-right" data-aos-duration="1000">
+          <p className="text-xl tracking-widest uppercase text-[#5651e5]">
+            Projects
+          </p>
+          <h2 className="py-4">What I&apos;ve Built</h2>
+        </div>
+        <div>
+          {/* -----------------Projects 1------------------- */}
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
+              className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#535355] to-[#b9c5e0] hover:cursor-pointer"
+            >
+              <PhotoProvider>
+                <div className="foo">
+                  <PhotoView src={doctors}>
+                    <img
+                      className="rounded-xl group-hover:opacity-70"
+                      src={doctors}
+                      style={{ objectFit: "cover" }}
+                      alt="Img"
+                    />
+                  </PhotoView>
+                </div>
+              </PhotoProvider>
+            </div>
+            <div
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-offset="200"
+            >
+              <h2>Project Name : Doctors Portal</h2>
+              <p>Description: This is a doctors portal Website.</p>
+              <p>
+                Technology Used : React JS | Express JS | MongoDB | Tailwind CSS
               </p>
-              <div className="flex-col justify-center">
-                <a
-                  href="https://react-doctors-portal-44f34.web.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <p className="text-center p-1 rounded-lg bg-white text-gray-700 font-semibold mx-16 cursor-pointer">
-                    Live Site
-                  </p>
-                </a>
-                <div className="flex mt-2">
-                  <a href="/crypto">
-                    <p className=" text-center p-1 rounded-lg bg-white text-gray-700 font-semibold ml-2 cursor-pointer">
-                      Client Side Code
-                    </p>
-                  </a>
-                  <a href="/crypto">
-                    <p className=" text-center p-1 rounded-lg bg-white text-gray-700 font-semibold ml-2 cursor-pointer">
-                      Server Side Code
-                    </p>
-                  </a>
+              <div className="mt-2 flex">
+                <div className="flex justify-center items-center">
+                  <button className="btn btn-outline btn-sm mx-1">
+                    <a
+                      href="https://react-doctors-portal-44f34.web.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Live Site
+                    </a>
+                    <MdSmartDisplay className="text-xl ml-1"></MdSmartDisplay>
+                  </button>
+                </div>
+                <div className="flex justify-center items-center">
+                  <button className="btn btn-outline btn-sm mx-1">
+                    <a
+                      href="https://github.com/arifjahan88/react-doctors-portal-client"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Client Side
+                    </a>
+                    <AiFillGithub className="text-xl ml-1"></AiFillGithub>
+                  </button>
+                </div>
+                <div className="flex justify-center items-center">
+                  <button className="btn btn-outline btn-sm mx-1">
+                    <a
+                      href="https://github.com/arifjahan88/react-doctors-portal-server"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Server Side
+                    </a>
+                    <AiFillGithub className="text-xl ml-1"></AiFillGithub>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
-          <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#8581fb] to-[#4e84f9] ">
-            <img
-              className="rounded-xl group-hover:opacity-10"
-              src={servicing}
-              alt="/"
-            />
-            <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-              <h3 className="text-2xl text-white tracking-wider text-center">
-                "Car Servicing"
-              </h3>
-              <p className="pb-4 pt-2 text-white text-center">
-                "React JS | Express JS | Mongo DB"
+
+          {/* -----------------Projects 2------------------- */}
+          <div className="grid md:grid-cols-2 gap-8 my-14 items-center">
+            <div
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+              className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#1f1f1f] to-[#000000] hover:cursor-pointer order-last"
+            >
+              <PhotoProvider>
+                <div className="foo">
+                  <PhotoView src={photoreview}>
+                    <img
+                      className="rounded-xl group-hover:opacity-70"
+                      src={photoreview}
+                      style={{ objectFit: "cover" }}
+                      alt="Img"
+                    />
+                  </PhotoView>
+                </div>
+              </PhotoProvider>
+            </div>
+            <div
+              className="text-right"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-offset="200"
+            >
+              <h2>Project Name : PhotoGraphy Review</h2>
+              <p>Description: This is a PhotoGraphy Review Website.</p>
+              <p>
+                Technology Used : React JS | Express JS | MongoDB | Tailwind CSS
               </p>
-              <div className="flex-col justify-center">
-                <a
-                  href="https://react-genius-car-client.web.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <p className="text-center p-1 rounded-lg bg-white text-gray-700 font-semibold mx-16 cursor-pointer">
-                    Live Site
-                  </p>
-                </a>
-                <div className="flex mt-2">
-                  <a href="/crypto">
-                    <p className=" text-center p-1 rounded-lg bg-white text-gray-700 font-semibold ml-2 cursor-pointer">
-                      Client Side Code
-                    </p>
-                  </a>
-                  <a href="/crypto">
-                    <p className=" text-center p-1 rounded-lg bg-white text-gray-700 font-semibold ml-2 cursor-pointer">
-                      Server Side Code
-                    </p>
-                  </a>
+              <div className="mt-2 flex justify-end">
+                <div className="flex justify-center items-center">
+                  <button className="btn btn-outline btn-sm mx-1">
+                    <a
+                      href="https://react-photography-review.web.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Live Site
+                    </a>
+                    <MdSmartDisplay className="text-xl ml-1"></MdSmartDisplay>
+                  </button>
+                </div>
+                <div className="flex justify-center items-center">
+                  <button className="btn btn-outline btn-sm mx-1">
+                    <a
+                      href="https://github.com/arifjahan88/react-photography-review-client"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Client Side
+                    </a>
+                    <AiFillGithub className="text-xl ml-1"></AiFillGithub>
+                  </button>
+                </div>
+                <div className="flex justify-center items-center">
+                  <button className="btn btn-outline btn-sm mx-1">
+                    <a
+                      href="https://github.com/arifjahan88/react-photography-review-server"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Server Side
+                    </a>
+                    <AiFillGithub className="text-xl ml-1"></AiFillGithub>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
-          <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#8581fb] to-[#4e84f9] ">
-            <img
-              className="rounded-xl group-hover:opacity-10"
-              src={photography}
-              alt="/"
-            />
-            <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-              <h3 className="text-2xl text-white tracking-wider text-center">
-                "Photography Review"
-              </h3>
-              <p className="pb-4 pt-2 text-white text-center">
-                "React JS | Express JS | Mongo DB"
+
+          {/* -----------------Projects 3------------------- */}
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
+              className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#535355] to-[#b9c5e0] hover:cursor-pointer"
+            >
+              <PhotoProvider>
+                <div className="foo">
+                  <PhotoView src={carsservice}>
+                    <img
+                      className="rounded-xl group-hover:opacity-70"
+                      src={carsservice}
+                      style={{ objectFit: "cover" }}
+                      alt="Img"
+                    />
+                  </PhotoView>
+                </div>
+              </PhotoProvider>
+            </div>
+            <div
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-offset="200"
+            >
+              <h2>Project Name : Genius Car Service</h2>
+              <p>Description: This is a Car Service Website.</p>
+              <p>
+                Technology Used : React JS | Express JS | MongoDB | Tailwind CSS
               </p>
-              <div className="flex-col justify-center">
-                <a
-                  href="https://react-photography-review.web.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <p className="text-center p-1 rounded-lg bg-white text-gray-700 font-semibold mx-16 cursor-pointer">
-                    Live Site
-                  </p>
-                </a>
-                <div className="flex mt-2">
-                  <a href="/crypto">
-                    <p className=" text-center p-1 rounded-lg bg-white text-gray-700 font-semibold ml-2 cursor-pointer">
-                      Client Side Code
-                    </p>
-                  </a>
-                  <a href="/crypto">
-                    <p className=" text-center p-1 rounded-lg bg-white text-gray-700 font-semibold ml-2 cursor-pointer">
-                      Server Side Code
-                    </p>
-                  </a>
+              <div className="mt-2 flex">
+                <div className="flex justify-center items-center">
+                  <button className="btn btn-outline btn-sm mx-1">
+                    <a
+                      href="https://react-genius-car-client.web.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Live Site
+                    </a>
+                    <MdSmartDisplay className="text-xl ml-1"></MdSmartDisplay>
+                  </button>
+                </div>
+                <div className="flex justify-center items-center">
+                  <button className="btn btn-outline btn-sm mx-1">
+                    <a
+                      href="https://github.com/arifjahan88/react-genius-car-client"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Client Side
+                    </a>
+                    <AiFillGithub className="text-xl ml-1"></AiFillGithub>
+                  </button>
+                </div>
+                <div className="flex justify-center items-center">
+                  <button className="btn btn-outline btn-sm mx-1">
+                    <a
+                      href="https://github.com/arifjahan88/react-genius-car-server"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Server Side
+                    </a>
+                    <AiFillGithub className="text-xl ml-1"></AiFillGithub>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        {/* 
-          <ProjectItem
-            title="Crypto App"
-            backgroundImg={cryptoImg}
-            projectUrl="/crypto"
-            tech="React JS"
-          />
-          <ProjectItem
-            title="Netflix App"
-            backgroundImg={netflixImg}
-            projectUrl="/netflix"
-            tech="React JS"
-          />
-          <ProjectItem
-            title="Twitch UI"
-            backgroundImg={twitchImg}
-            projectUrl="/twitch"
-            tech="Next JS"
-          /> */}
       </div>
     </div>
   );

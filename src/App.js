@@ -1,6 +1,8 @@
+import { Toaster } from "react-hot-toast";
 import "./App.css";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 import HomeMain from "./Components/HomeMain";
 import Navber from "./Components/Navber";
 import Projects from "./Components/Projects";
@@ -16,8 +18,10 @@ function App() {
       <Skills></Skills>
       <Projects></Projects>
       <Contact></Contact>
+      <Footer></Footer>
 
       <SocialLink></SocialLink>
+      <Toaster />
     </div>
   );
 }
