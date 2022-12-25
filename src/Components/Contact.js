@@ -29,7 +29,7 @@ const Contact = () => {
       );
   };
   return (
-    <div className="max-w-[1240px] md:h-screen mx-auto p-4">
+    <div id="contacts" className="max-w-[1240px] md:h-screen mx-auto p-4">
       <div data-aos="fade-right" data-aos-duration="1500">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Contact Me

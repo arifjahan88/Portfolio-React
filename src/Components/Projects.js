@@ -274,7 +274,7 @@ const Projects = () => {
                 <div className="flex justify-center items-center">
                   <button className="btn btn-outline btn-sm mx-1">
                     <a
-                      href="https://github.com/arifjahan88/react-photography-review-client"
+                      href="https://github.com/arifjahan88/react-pacific-pick-seller-client"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -286,7 +286,7 @@ const Projects = () => {
                 <div className="flex justify-center items-center">
                   <button className="btn btn-outline btn-sm mx-1">
                     <a
-                      href="https://github.com/arifjahan88/react-photography-review-server"
+                      href="https://github.com/arifjahan88/react-pacific-pick-seller-server"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -341,23 +341,11 @@ const Projects = () => {
                 <div className="flex justify-center items-center">
                   <button className="btn btn-outline btn-sm mx-1">
                     <a
-                      href="https://github.com/arifjahan88/react-genius-car-client"
+                      href="https://github.com/arifjahan88/react-ema-john-site"
                       target="_blank"
                       rel="noreferrer"
                     >
                       Client Side
-                    </a>
-                    <AiFillGithub className="text-xl ml-1"></AiFillGithub>
-                  </button>
-                </div>
-                <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
-                    <a
-                      href="https://github.com/arifjahan88/react-genius-car-server"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Server Side
                     </a>
                     <AiFillGithub className="text-xl ml-1"></AiFillGithub>
                   </button>
@@ -412,7 +400,7 @@ const Projects = () => {
                 <div className="flex justify-center items-center">
                   <button className="btn btn-outline btn-sm mx-1">
                     <a
-                      href="https://github.com/arifjahan88/react-photography-review-client"
+                      href="https://github.com/arifjahan88/react-learning-guru-client"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -424,7 +412,7 @@ const Projects = () => {
                 <div className="flex justify-center items-center">
                   <button className="btn btn-outline btn-sm mx-1">
                     <a
-                      href="https://github.com/arifjahan88/react-photography-review-server"
+                      href="https://github.com/arifjahan88/react-learning-guru-server"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -479,7 +467,7 @@ const Projects = () => {
                 <div className="flex justify-center items-center">
                   <button className="btn btn-outline btn-sm mx-1">
                     <a
-                      href="https://github.com/arifjahan88/react-genius-car-client"
+                      href="https://github.com/arifjahan88/react-dragon-newsportal-client"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -491,7 +479,7 @@ const Projects = () => {
                 <div className="flex justify-center items-center">
                   <button className="btn btn-outline btn-sm mx-1">
                     <a
-                      href="https://github.com/arifjahan88/react-genius-car-server"
+                      href="https://github.com/arifjahan88/react-dragon-newsportal-server"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -548,7 +536,7 @@ const Projects = () => {
                 <div className="flex justify-center items-center">
                   <button className="btn btn-outline btn-sm mx-1">
                     <a
-                      href="https://github.com/arifjahan88/react-photography-review-client"
+                      href="https://github.com/arifjahan88/DocTeck-Website"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -557,14 +545,55 @@ const Projects = () => {
                     <AiFillGithub className="text-xl ml-1"></AiFillGithub>
                   </button>
                 </div>
+              </div>
+            </div>
+          </div>
+
+          {/* -----------------Projects 9------------------- */}
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+              className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group "
+            >
+              <PhotoProvider>
+                <div className="foo">
+                  <PhotoView src={CleverQuiz}>
+                    <img
+                      className="rounded-xl group-hover:opacity-70 -rotate-12 hover:cursor-zoom-in"
+                      src={CleverQuiz}
+                      style={{ objectFit: "cover" }}
+                      alt="Img"
+                    />
+                  </PhotoView>
+                </div>
+              </PhotoProvider>
+            </div>
+            <div data-aos="fade-left" data-aos-duration="1000">
+              <h2>Project Name : Clever Quiz</h2>
+              <p>Description: This is a Clever Quiz Website.</p>
+              <p>Technology Used : JavaScript | HTML | CSS</p>
+              <div className="mt-2 flex">
                 <div className="flex justify-center items-center">
                   <button className="btn btn-outline btn-sm mx-1">
                     <a
-                      href="https://github.com/arifjahan88/react-photography-review-server"
+                      href="https://clever-quiz.netlify.app/"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Server Side
+                      Live Site
+                    </a>
+                    <MdSmartDisplay className="text-xl ml-1"></MdSmartDisplay>
+                  </button>
+                </div>
+                <div className="flex justify-center items-center">
+                  <button className="btn btn-outline btn-sm mx-1">
+                    <a
+                      href="https://github.com/arifjahan88/react-clever-quiz"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Client Side
                     </a>
                     <AiFillGithub className="text-xl ml-1"></AiFillGithub>
                   </button>

@@ -139,17 +139,17 @@ const Navber = () => {
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-gray-500 font-semibold hover:text-indigo-500">
-                <p>Home</p>
+                <a href="#home">Home</a>
               </li>
               <li className="text-gray-500 font-semibold hover:text-indigo-500">
-                <p>About</p>
+                <a href="#about">About</a>
               </li>
 
               <li className="text-gray-500 font-semibold hover:text-indigo-500">
-                <p>Skills</p>
+                <a href="#skills">Skills</a>
               </li>
               <li className="text-gray-500 font-semibold hover:text-indigo-500">
-                <p>Projects</p>
+                <a href="#projects">Projects</a>
               </li>
               <li className="text-gray-500 font-semibold hover:text-indigo-500">
                 <p>Blogs</p>
@@ -158,7 +158,7 @@ const Navber = () => {
                 <p>Resume</p>
               </li>
               <li className="text-gray-500 font-semibold hover:text-indigo-500">
-                <p>Contact Me</p>
+                <a href="#contacts">Contact Me</a>
               </li>
             </ul>
           </div>
