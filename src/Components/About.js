@@ -10,7 +10,7 @@ const About = () => {
           data-aos="fade-right"
           data-aos-offset="200"
           data-aos-easing="ease-in-sine"
-          data-aos-duration="1500"
+          data-aos-duration="1000"
         >
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">
             About

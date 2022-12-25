@@ -19,11 +19,11 @@ const HomeMain = () => {
           <TypeAnimation
             className="font-bold py-2 text-lime-600 text-2xl"
             sequence={[
-              "Web Developer.",
+              "A Web Developer.",
               2000,
-              "Front-End Developer.",
+              "A Front-End Developer.",
               2000,
-              "Mern-Stack Developer.",
+              "A Mern-Stack Developer.",
               2000,
             ]}
             //  Replacing previous Text
