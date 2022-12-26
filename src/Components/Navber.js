@@ -82,18 +82,18 @@ const Navber = () => {
     <nav
       className={
         shadow
-          ? "lg:fixed md:fixed h-15 z-[100] ease-in-out duration-300 w-full bg-[#ecf0f3] shadow-xl"
-          : "lg:fixed md:fixed h-15 z-[100] w-full bg-[#ecf0f3]"
+          ? "lg:fixed h-15 z-[100] ease-in-out duration-300 w-full bg-[#ecf0f3] shadow-xl"
+          : "lg:fixed h-15 z-[100] w-full bg-[#ecf0f3]"
       }
     >
-      <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+      <div className="justify-between lg:justify-between px-4 mx-auto lg:max-w-7xl lg:items-center lg:flex lg:px-8">
         <div>
-          <div className="flex items-center justify-between py-3 md:py-5 md:block">
+          <div className="flex items-center justify-between py-3 lg:py-5 lg:block">
             <p>
               {/* <h2 className="text-2xl font-bold text-gray-500">Arif Jahan</h2> */}
               <img className="w-40" src={navlogo} alt=""></img>
             </p>
-            <div className="md:hidden">
+            <div className="lg:hidden">
               <button
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                 onClick={() => setNavbar(!navbar)}
@@ -133,11 +133,11 @@ const Navber = () => {
         </div>
         <div>
           <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+            className={`flex-1 justify-self-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${
               navbar ? "block" : "hidden"
             }`}
           >
-            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+            <ul className="items-center justify-center space-y-8 lg:flex lg:space-x-6 lg:space-y-0">
               <li className="text-gray-500 font-semibold hover:text-indigo-500">
                 <a href="#home">Home</a>
               </li>

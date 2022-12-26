@@ -24,7 +24,7 @@ const Projects = () => {
         </div>
         <div>
           {/* -----------------Projects 1------------------- */}
-          <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div className="grid md:grid-cols-2 gap-8 my-14 items-center">
             <div
               data-aos="zoom-in-right"
               data-aos-duration="1000"
@@ -51,7 +51,7 @@ const Projects = () => {
               </p>
               <div className="mt-2 flex">
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://react-doctors-portal-44f34.web.app/"
                       target="_blank"
@@ -63,7 +63,7 @@ const Projects = () => {
                   </button>
                 </div>
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://github.com/arifjahan88/react-doctors-portal-client"
                       target="_blank"
@@ -75,7 +75,7 @@ const Projects = () => {
                   </button>
                 </div>
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://github.com/arifjahan88/react-doctors-portal-server"
                       target="_blank"
@@ -111,7 +111,7 @@ const Projects = () => {
               </PhotoProvider>
             </div>
             <div
-              className="text-right"
+              className="text-left order-last sm:order-first sm:text-right"
               data-aos="fade-right"
               data-aos-duration="1000"
             >
@@ -122,7 +122,7 @@ const Projects = () => {
               </p>
               <div className="mt-2 flex justify-end">
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://react-photography-review.web.app/"
                       target="_blank"
@@ -134,7 +134,7 @@ const Projects = () => {
                   </button>
                 </div>
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://github.com/arifjahan88/react-photography-review-client"
                       target="_blank"
@@ -146,7 +146,7 @@ const Projects = () => {
                   </button>
                 </div>
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://github.com/arifjahan88/react-photography-review-server"
                       target="_blank"
@@ -162,7 +162,7 @@ const Projects = () => {
           </div>
 
           {/* -----------------Projects 3------------------- */}
-          <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div className="grid md:grid-cols-2 gap-8 my-14 items-center">
             <div
               data-aos="zoom-in-right"
               data-aos-duration="1000"
@@ -189,7 +189,7 @@ const Projects = () => {
               </p>
               <div className="mt-2 flex">
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://react-genius-car-client.web.app/"
                       target="_blank"
@@ -201,7 +201,7 @@ const Projects = () => {
                   </button>
                 </div>
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://github.com/arifjahan88/react-genius-car-client"
                       target="_blank"
@@ -213,7 +213,7 @@ const Projects = () => {
                   </button>
                 </div>
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://github.com/arifjahan88/react-genius-car-server"
                       target="_blank"
@@ -249,7 +249,7 @@ const Projects = () => {
               </PhotoProvider>
             </div>
             <div
-              className="text-right"
+              className="text-left order-last sm:order-first sm:text-right"
               data-aos="fade-right"
               data-aos-duration="1000"
             >
@@ -260,7 +260,7 @@ const Projects = () => {
               </p>
               <div className="mt-2 flex justify-end">
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://react-pacific-pick-seller.web.app/"
                       target="_blank"
@@ -272,7 +272,7 @@ const Projects = () => {
                   </button>
                 </div>
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://github.com/arifjahan88/react-pacific-pick-seller-client"
                       target="_blank"
@@ -284,7 +284,7 @@ const Projects = () => {
                   </button>
                 </div>
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://github.com/arifjahan88/react-pacific-pick-seller-server"
                       target="_blank"
@@ -300,7 +300,7 @@ const Projects = () => {
           </div>
 
           {/* -----------------Projects 5------------------- */}
-          <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div className="grid md:grid-cols-2 gap-8 my-14 items-center">
             <div
               data-aos="zoom-in-right"
               data-aos-duration="1000"
@@ -327,7 +327,7 @@ const Projects = () => {
               </p>
               <div className="mt-2 flex">
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://ema-john-sites.web.app/"
                       target="_blank"
@@ -339,7 +339,7 @@ const Projects = () => {
                   </button>
                 </div>
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://github.com/arifjahan88/react-ema-john-site"
                       target="_blank"
@@ -375,7 +375,7 @@ const Projects = () => {
               </PhotoProvider>
             </div>
             <div
-              className="text-right"
+              className="text-left order-last sm:order-first sm:text-right"
               data-aos="fade-right"
               data-aos-duration="1000"
             >
@@ -386,7 +386,7 @@ const Projects = () => {
               </p>
               <div className="mt-2 flex justify-end">
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://react-programming-courses.web.app/"
                       target="_blank"
@@ -398,7 +398,7 @@ const Projects = () => {
                   </button>
                 </div>
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://github.com/arifjahan88/react-learning-guru-client"
                       target="_blank"
@@ -410,7 +410,7 @@ const Projects = () => {
                   </button>
                 </div>
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://github.com/arifjahan88/react-learning-guru-server"
                       target="_blank"
@@ -426,7 +426,7 @@ const Projects = () => {
           </div>
 
           {/* -----------------Projects 7------------------- */}
-          <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div className="grid md:grid-cols-2 gap-8 my-14 items-center">
             <div
               data-aos="zoom-in-right"
               data-aos-duration="1000"
@@ -453,7 +453,7 @@ const Projects = () => {
               </p>
               <div className="mt-2 flex">
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://react-dragon-newsportal.web.app/"
                       target="_blank"
@@ -465,7 +465,7 @@ const Projects = () => {
                   </button>
                 </div>
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://github.com/arifjahan88/react-dragon-newsportal-client"
                       target="_blank"
@@ -477,7 +477,7 @@ const Projects = () => {
                   </button>
                 </div>
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://github.com/arifjahan88/react-dragon-newsportal-server"
                       target="_blank"
@@ -513,16 +513,16 @@ const Projects = () => {
               </PhotoProvider>
             </div>
             <div
-              className="text-right"
+              className="text-left order-last sm:order-first sm:text-right"
               data-aos="fade-right"
               data-aos-duration="1000"
             >
               <h2>Project Name : DockTeck Website</h2>
               <p>Description: This is a DockTeck Website Website.</p>
               <p>Technology Used : HTML | CSS | Bootstrap</p>
-              <div className="mt-2 flex justify-end">
+              <div className="mt-2 flex lg:justify-end md:justify-end sm:justify-start">
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://arifjahan88.github.io/DocTeck-Website/"
                       target="_blank"
@@ -534,7 +534,7 @@ const Projects = () => {
                   </button>
                 </div>
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://github.com/arifjahan88/DocTeck-Website"
                       target="_blank"
@@ -550,7 +550,7 @@ const Projects = () => {
           </div>
 
           {/* -----------------Projects 9------------------- */}
-          <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div className="grid md:grid-cols-2 gap-8 my-14 items-center">
             <div
               data-aos="zoom-in-right"
               data-aos-duration="1000"
@@ -575,7 +575,7 @@ const Projects = () => {
               <p>Technology Used : JavaScript | HTML | CSS</p>
               <div className="mt-2 flex">
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://clever-quiz.netlify.app/"
                       target="_blank"
@@ -587,7 +587,7 @@ const Projects = () => {
                   </button>
                 </div>
                 <div className="flex justify-center items-center">
-                  <button className="btn btn-outline btn-sm mx-1">
+                  <button className="btn btn-outline btn-xs mx-1">
                     <a
                       href="https://github.com/arifjahan88/react-clever-quiz"
                       target="_blank"

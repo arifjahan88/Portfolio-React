@@ -70,7 +70,7 @@ const HomeMain = () => {
             </a>
           </div>
         </div>
-        <div className="avatar w-4/5 mx-auto">
+        <div className="avatar w-4/5 mx-auto sm:order-last order-first">
           <div className="key_image rounded-3xl border-2"></div>
         </div>
       </div>
