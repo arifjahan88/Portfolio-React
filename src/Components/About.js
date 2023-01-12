@@ -8,23 +8,19 @@ const About = () => {
         <div
           className="col-span-2"
           data-aos="fade-right"
-          data-aos-offset="200"
-          data-aos-easing="ease-in-sine"
+          data-aos-offset="100"
           data-aos-duration="1000"
         >
-          <p className="uppercase text-xl tracking-widest text-[#5651e5]">
-            About
-          </p>
+          <p className="uppercase text-xl tracking-widest text-[#5651e5]">About</p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600 text-justify">
-            My area of expertise is developing front-end UI applications for
-            mobile devices that link to APIs and other backend technologies. I
-            have a strong desire for learning new technologies and am aware that
-            there are multiple ways to do a task. Using HTML, CSS, Javascript,
-            and React to build front-end applications is where I excel, but I am
-            a quick learner and can pick up new tech stacks as needed. I think
-            that using the best tool for the job, rather than sticking to one
-            particular language, is what makes a great developer.
+            My area of expertise is developing front-end UI applications for mobile devices that
+            link to APIs and other backend technologies. I have a strong desire for learning new
+            technologies and am aware that there are multiple ways to do a task. Using HTML, CSS,
+            Javascript, and React to build front-end applications is where I excel, but I am a quick
+            learner and can pick up new tech stacks as needed. I think that using the best tool for
+            the job, rather than sticking to one particular language, is what makes a great
+            developer.
           </p>
           {/* <p className="py-2 text-gray-600">
             I started web developement in 2013 managing multiple e-commerce
@@ -38,9 +34,8 @@ const About = () => {
         <div
           className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300"
           data-aos="fade-left"
-          data-aos-offset="200"
-          data-aos-easing="ease-in-sine"
-          data-aos-duration="1500"
+          data-aos-offset="100"
+          data-aos-duration="1000"
         >
           <img src={AboutImg} className="rounded-xl" alt="/" />
         </div>

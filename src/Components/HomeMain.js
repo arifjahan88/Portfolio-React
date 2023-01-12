@@ -1,14 +1,40 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import "./Homeimg.css";
+import scroll from "../assets/scroll.png";
 
 const HomeMain = () => {
+  const [Scroll, setScroll] = useState(true);
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >= 200) {
+        setScroll(false);
+      } else {
+        setScroll(true);
+      }
+    };
+    window.addEventListener("scroll", handleShadow);
+  }, []);
   return (
     <div id="home" className="w-full h-screen text-center">
-      <div className="max-w-[1240px] w-full h-full mx-auto p-2 grid lg:grid-cols-2 sm:grid-cols-1  justify-center items-center">
+      {Scroll && (
+        <div className="text-black absolute bottom-2 right-1/2 opacity-30 animate-bounce ">
+          <a href="#about">
+            <div className="flex justify-center items-center">
+              <img className="w-8" src={scroll} alt="" />
+              <p className="font-semibold text-base ml-3">Scroll Down</p>
+            </div>
+          </a>
+        </div>
+      )}
+      <div
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        className="max-w-[1240px] w-full h-full mx-auto p-2 grid lg:grid-cols-2 sm:grid-cols-1  justify-center items-center"
+      >
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600">
             LET&#39;S BUILD SOMETHING TOGETHER
@@ -33,24 +59,16 @@ const HomeMain = () => {
           />
 
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
-            I concentrate on developing back-end technology-integrated
-            responsive front-end web applications.
+            I concentrate on developing back-end technology-integrated responsive front-end web
+            applications.
           </p>
           <div className="flex items-center justify-center gap-2 max-w-[330px] m-auto">
-            <a
-              href="https://www.linkedin.com/in/arif-jahan/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://www.linkedin.com/in/arif-jahan/" target="_blank" rel="noreferrer">
               <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaLinkedinIn />
               </div>
             </a>
-            <a
-              href="https://github.com/arifjahan88"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://github.com/arifjahan88" target="_blank" rel="noreferrer">
               <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaGithub />
               </div>

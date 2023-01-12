@@ -1,4 +1,5 @@
 import { Toaster } from "react-hot-toast";
+import ScrollToTop from "react-scroll-to-top";
 import "./App.css";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
@@ -21,6 +22,7 @@ function App() {
       <Footer></Footer>
 
       <SocialLink></SocialLink>
+      <ScrollToTop smooth top="200" width="40" height="25" color="gray" />
       <Toaster />
     </div>
   );
